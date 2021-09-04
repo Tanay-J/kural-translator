@@ -2,13 +2,13 @@
 
 
 :root{
-    --primary-color: #464660;
-    --primary-light: #D9D2CE;
-    --text-light: #F1E9E5;
-    --text-dark: #464660;
+    --primary-color: #234E70;
+    --primary-light: #E2DFAB;
+    --text-light: #FBF8BE;
+    --text-dark: #234E70;
 }
 body{
-    background-color: #F1E9E5;
+    background-color: #FBF8BE;
     font-family: 'Montserrat', sans-serif;
 }
 nav{
@@ -35,6 +35,10 @@ input{
     padding: 0.5rem 1.5rem;
     min-width: 25%;
     background-color: var(--primary-light);
+    outline: none;
+}
+input:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--primary-color);
 }
 button{
     margin: 10px;
@@ -42,6 +46,9 @@ button{
     border-radius: 15px;
     padding: 0.5rem 1.5rem;
     outline: none;
+}
+button:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--primary-color);
 }
 .primary-btn{
     background-color: var(--primary-color);
