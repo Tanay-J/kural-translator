@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 :root{
-    --primary-color: #476072;
-    --primary-light: #D1D7DC;
-    --text-light: #EEEEEE;
-    --text-dark: #476072;
+    --primary-color: #464660;
+    --primary-light: #D9D2CE;
+    --text-light: #F1E9E5;
+    --text-dark: #464660;
 }
 body{
-    background-color: #EEEEEE;
+    background-color: #F1E9E5;
+    font-family: 'Montserrat', sans-serif;
 }
 nav{
     background-color: var(--primary-color);
